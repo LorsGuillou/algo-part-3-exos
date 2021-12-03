@@ -4,6 +4,16 @@
  * ex: [6, 8, 10] => 8 car (6+8+10)/3
  */
 function average(scores) {
+    let total = 0;
+    let count = 0;
+
+    scores.forEach(function(item) {
+        total += item;
+        count++;
+    });
+
+    return total / count
+        
     // CODE HERE
 }
 
