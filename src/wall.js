@@ -5,6 +5,8 @@
  * Voir le fichier de tests associé (spec/wallSpec.js)
  */
 function wall(existingMessages, newMessage) {
+    existingMessages.push(newMessage);
+    return existingMessages
     // CODE HERE
 }
 
